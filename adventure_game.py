@@ -7,7 +7,7 @@ nameOftheCharacter = input()
 print('Let us take ' + nameOftheCharacter + ' to a great adventure back to 0B.C (many years back from now)')
 print('Lets goooooooooo!!!!!!! ')
 
-
+#yes no if else lekhna garoo bhayera yo banako
 def YnAnswer():
     print('Type y for yes and n for no: ', end=' ')
     answer = input().lower()
@@ -16,7 +16,7 @@ def YnAnswer():
     else:
         return -1
 
-
+#Weapon selection ko lagi matra
 def Weapon(numberWeapon):
     WeaponsArray = ['Stone', 'Stick', 'Hand']
     if numberWeapon == 1:
@@ -43,7 +43,7 @@ print('Just kidding !!')
 print('Oh wait I see a cave shall we get inside it?  : Type y for yes and n for no')
 AnswerToCave = input().lower()
 
-
+#If enter cave selected then ..
 def inThCave():
     print(
         'Finally we are in the cave and wait there is a box !!! Wait what .. Shall we open it? : : Type y for yes and n for no')
